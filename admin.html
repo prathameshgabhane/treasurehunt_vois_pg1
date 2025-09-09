@@ -31,7 +31,7 @@
         
         .btn-refresh {
             background: linear-gradient(145deg, #4CAF50, #45a049);
-            color: white;
+            color: rgb(10, 10, 10);
         }
         
         .btn-refresh:hover {
@@ -40,23 +40,33 @@
         }
         
         .btn-clear {
-            background: linear-gradient(145deg, #f44336, #da190b);
-            color: white;
+            background: linear-gradient(145deg, #f0ff25, #f0ff25);
+            color: rgb(9, 9, 9);
         }
         
         .btn-clear:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(244, 67, 54, 0.3);
+            box-shadow: 0 4px 8px rgba(241, 202, 7, 0.3);
         }
         
         .btn-export {
             background: linear-gradient(145deg, #2196F3, #0b7dda);
-            color: white;
+            color: rgb(14, 0, 0);
         }
         
         .btn-export:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+        }
+
+        .btn-home {
+            background: linear-gradient(145deg, #080000, #080000);
+            color: rgb(248, 246, 246);
+        }
+
+        .btn-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(66, 68, 70, 0.3);
         }
         
         .real-time-indicator {
@@ -106,7 +116,7 @@
         }
         
         .stat-label {
-            color: #666;
+            color: #070707;
             font-size: 0.9rem;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -125,14 +135,17 @@
         .leaderboard-table th,
         .leaderboard-table td {
             padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #f0f0f0;
+            text-align: center;
+            border-bottom: 2px solid #0a0a0a;
+            border-top: 2px solid #0a0a0a;
+            border-left: 2px solid #0a0a0a;
+            border-right: 2px solid #0a0a0a;
         }
         
         .leaderboard-table th {
-            background: linear-gradient(145deg, #6c5ce7, #5a4fcf);
-            color: white;
-            font-weight: 600;
+            background: linear-gradient(145deg, #4CAF50, #4CAF50);
+            color: rgb(10, 10, 10);
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
@@ -170,16 +183,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>📊 Admin Dashboard 
-            <span class="real-time-indicator">🔴 LIVE</span>
-            <span id="firebase-status" class="firebase-status">📡 Connecting...</span>
+        <h1 style="color: black; margin-bottom: 20px;">Admin Dashboard 
         </h1>
         
         <div class="admin-controls">
-            <button onclick="refreshData()" class="btn-refresh">🔄 Refresh</button>
-            <button onclick="clearAllData()" class="btn-clear">🗑️ Clear All Data</button>
-            <button onclick="exportData()" class="btn-export">📥 Export Data</button>
-            <button onclick="goHome()" class="btn-secondary">🏠 Home</button>
+            <button onclick="refreshData()" class="btn-refresh">Refresh</button>
+            <button onclick="clearAllData()" class="btn-clear">Clear All Data</button>
+            <button onclick="exportData()" class="btn-export">Export Data</button>
+            <button onclick="goHome()" class="btn-secondary">Home</button>
         </div>
         
         <div class="stats-grid">
@@ -197,7 +208,7 @@
             </div>
         </div>
         
-        <h2>🏆 Live Leaderboard</h2>
+        <center><h2 style="color: black; margin-bottom: 20px;">🏆 Live Leaderboard 🏆</h2></center>
         <table class="leaderboard-table">
             <thead>
                 <tr>
@@ -216,12 +227,12 @@
             </tbody>
         </table>
         
-        <div style="margin-top: 30px; padding: 20px; background: #f8f9ff; border-radius: 10px; border-left: 4px solid #6c5ce7;">
+        <!---<div style="margin-top: 30px; padding: 20px; background: #f8f9ff; border-radius: 10px; border-left: 4px solid #6c5ce7;">
             <h3>🏴‍☠️ Treasure Hunt Wisdom:</h3>
             <p style="font-style: italic; color: #6c5ce7; font-size: 1.1rem; margin: 0;">
                 "The real treasure isn't gold or jewels – it's the adventure of discovery and the bonds forged along the way!" 🗺️✨
             </p>
-        </div>
+        </div>--->
     </div>
     
     <!-- 🔥 CHANGED: Use firebase-script.js instead of script.js -->
