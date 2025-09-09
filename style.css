@@ -16,7 +16,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 /* Header Styles */
@@ -55,7 +55,23 @@ body {
     margin-bottom: 50px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
-    
+}
+
+.admin-live-section {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    max-width: auto;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 30vh;    
 }
 
 /* Options Section */
