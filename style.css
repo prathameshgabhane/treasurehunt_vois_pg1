@@ -60,18 +60,19 @@ body {
 .admin-live-section {
     text-align: center;
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    border-radius: auto;
+    padding: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     max-width: auto;
     margin: 0 auto;
-    padding: 5px;
-    min-height: 30vh;    
+    padding: auto;
+    min-height: auto;  
+    max-width: auto;  
 }
 
 /* Options Section */
@@ -200,7 +201,7 @@ button:active {
 
 .task-header h1 {
     font-size: 2.5em;
-    color: #4a5568;
+    color: #fb1b02;
     margin-bottom: 20px;
 }
 
@@ -214,7 +215,7 @@ button:active {
 
 .progress {
     height: 100%;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #fb1b02, #fb1b02);
     transition: width 0.5s ease;
 }
 
@@ -227,14 +228,13 @@ button:active {
 }
 
 .clue-section h2, .verification-section h2 {
-    color: #4a5568;
+    color: #fe2c21;
     margin-bottom: 20px;
     font-size: 1.8em;
 }
 
 .clue-box {
-    background: linear-gradient(145deg, #f7fafc, #edf2f7);
-    border-left: 5px solid #667eea;
+    background: linear-gradient(145deg, #fbd3c5, #fbd3c5);
     padding: 25px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -244,7 +244,7 @@ button:active {
 .clue-box p {
     font-size: 1.1em;
     line-height: 1.8;
-    color: #2d3748;
+    color: #f70303;
     font-weight: 500;
     font-style: italic;
 }
