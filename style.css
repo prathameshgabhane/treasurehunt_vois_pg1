@@ -17,7 +17,26 @@ body {
     margin: 0 auto;
     padding: 20px;
     min-height: 50vh;
+    position: relative; 
 }
+
+
+
+.corner-img {
+    position: absolute;
+    top: 10px;      /* distance from top */
+    width: 50px;    /* adjust size */
+    height: auto;
+}
+
+.left-corner {
+    left: 10px;     /* stick to left */
+}
+
+.right-corner {
+    right: 10px;    /* stick to right */
+}
+
 
 /* Header Styles */
 .hero-section {
