@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #db1010 0%, #db1010 100%);
     min-height: 100vh;
     color: #333;
     line-height: 1.6;
@@ -117,7 +117,7 @@ input[type="text"]:focus {
 
 /* Button Styles */
 button {
-    background: linear-gradient(145deg, #667eea, #764ba2);
+    background: linear-gradient(145deg, #fb3939, #fb3939);
     color: white;
     border: none;
     padding: 12px 30px;
@@ -144,7 +144,7 @@ button:active {
 }
 
 .btn-danger {
-    background: linear-gradient(145deg, #e53e3e, #c53030);
+    background: linear-gradient(145deg, #db1010, #db1010);
     box-shadow: 0 5px 15px rgba(229, 62, 62, 0.3);
 }
 
@@ -242,7 +242,7 @@ button:active {
 }
 
 .task-note {
-    color: #e53e3e;
+    color: #db1010;
     font-weight: 600;
     font-size: 0.9em;
 }
