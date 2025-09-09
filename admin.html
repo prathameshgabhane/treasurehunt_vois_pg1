@@ -132,13 +132,14 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
+            table-layout: auto;        /* let columns auto-adjust */
         }
         
         .leaderboard-table th,
         .leaderboard-table td {
             padding: 15px;
             text-align: center;
+            word-wrap: break-word; 
         }
         
         .leaderboard-table th {
@@ -147,6 +148,7 @@
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 1px;
+            word-wrap: break-word; 
         }
         
         .leaderboard-table tr:hover {
@@ -207,7 +209,6 @@
                 <div class="stat-label">In Progress</div>
             </div>
         </div>
-        
         <center><h2 style="color: #f52a2a; margin-bottom: 20px;">🏆 LIVE LEADERBOARD 🏆</h2></center>
         <table class="leaderboard-table">
             <thead>
@@ -233,8 +234,8 @@
                 "The real treasure isn't gold or jewels – it's the adventure of discovery and the bonds forged along the way!" 🗺️✨
             </p>
         </div>--->
-    </div>
-    </div>
+        </div>
+        </div>
     
     <!-- 🔥 CHANGED: Use firebase-script.js instead of script.js -->
     <script src="firebase-script.js"></script>
