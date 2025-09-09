@@ -8,8 +8,8 @@ const firebaseConfig = {
     projectId: "treasure-hunt-game-1f9e6",
     storageBucket: "treasure-hunt-game-1f9e6.firebasestorage.app",
     messagingSenderId: "662097284199",
-    appId: "1:662097284199:web:e2cbd6b3ff7bb219fa18c2",
-    measurementId: "G-5BF32EW0CT"
+    appId: "1:662097284199:web:03f64ab68d118ee9fa18c2",
+    measurementId: "G-ZESQPME5XE"
 };
 
 // Initialize Firebase
