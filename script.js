@@ -8,7 +8,7 @@ function setTeamId() {
     }
 
     // Store team ID in browser memory
-    localStorage.setItem("teamIdInput", teamId);
+    localStorage.setItem("teamId", teamId);
 
     // Redirect to Task 1 page
     window.location.href = "task1.html";
