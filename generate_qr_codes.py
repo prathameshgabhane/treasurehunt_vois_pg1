@@ -82,7 +82,7 @@ def create_qr_code_with_label(url, label, filename):
 
 def main():
     # 🚨 YOUR GITHUB PAGES URL
-    base_url = "https://prathameshgabhane.github.io/treasurehunt_vois_pg/"
+    base_url = "https://prathameshgabhane.github.io/treasurehunt_vois_pg1/"
     
     print("🎯 Generating QR Codes for Treasure Hunt Game")
     print("=" * 50)
@@ -159,4 +159,5 @@ def main():
     print("🚀 Ready for your treasure hunt!")
 
 if __name__ == "__main__":
+
     main() 
