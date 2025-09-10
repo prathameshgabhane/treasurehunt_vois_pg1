@@ -3,13 +3,13 @@
 
 // 🚨 YOUR ACTUAL FIREBASE CONFIG (CONVERTED TO COMPAT FORMAT)
 const firebaseConfig = {
-    apiKey: "AIzaSyAVYfngzJua_mZ_mWeyDK6YqbZ3LD7Gp3M",
-    authDomain: "voishunt.firebaseapp.com",
-    projectId: "voishunt",
-    storageBucket: "voishunt.firebasestorage.app",
-    messagingSenderId: "102128823970",
-    appId: "1:102128823970:web:cf6981680b339021c9f1fb",
-    measurementId: "G-QL1E69JVCE"
+  apiKey: "AIzaSyBzIQZ_sj3m95_bEP16yzyyDL37cZjUZd0",
+  authDomain: "treasure-hunt-game-1f9e6.firebaseapp.com",
+  projectId: "treasure-hunt-game-1f9e6",
+  storageBucket: "treasure-hunt-game-1f9e6.firebasestorage.app",
+  messagingSenderId: "662097284199",
+  appId: "1:662097284199:web:e2cbd6b3ff7bb219fa18c2",
+  measurementId: "G-5BF32EW0CT"
 };
 
 // Initialize Firebase//
