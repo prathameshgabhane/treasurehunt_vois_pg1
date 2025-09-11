@@ -30,7 +30,7 @@ class FirebaseTreasureHunt {
             1: "A cozy work place with parallel garden sitting view although empty through.",
             2: "Not in the wild, not in the sea,But behind a number that holds the key.A code of love,Your prize is locked, not far above!",
             3: "Not in the wild, not in the sea,But behind a number that holds the key.A code of love,Your prize is locked, not far above!",
-            4: "शब्दों की दुनिया से अब बाहर आओ, अब थोड़ा आराम भी तो मनाओ। जहाँ पेट भरता है और मन मुस्काता है, वहीं मेहनत का असली फल तुम्हारा इंतज़ार करता है.",
+            4: "Standing tall with stories of success ,this desk honours leadership fineesse. Where vision meets the daily view, look beneath your next clue awaits you.",
             5: "🎊 CONGRATULATIONS! YOU WON! 🎊"
         };
         
